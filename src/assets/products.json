@@ -5,12 +5,33 @@
         "images": [
           "assets/produit-XXX/im3.jfif",
           "assets/produit-XXX/im1.jpg",
+          "assets/produit-XXX/im2.jfif",
+          "assets/produit-XXX/im3.jfif",
+          "assets/produit-XXX/im1.jpg",
+          "assets/produit-XXX/im2.jfif",
+          "assets/produit-XXX/im3.jfif",
+          "assets/produit-XXX/im1.jpg",
+          "assets/produit-XXX/im2.jfif",
+          "assets/produit-XXX/im3.jfif",
+          "assets/produit-XXX/im1.jpg",
+          "assets/produit-XXX/im2.jfif",
+          "assets/produit-XXX/im3.jfif",
+          "assets/produit-XXX/im1.jpg",
+          "assets/produit-XXX/im2.jfif",
+          "assets/produit-XXX/im3.jfif",
+          "assets/produit-XXX/im1.jpg",
           "assets/produit-XXX/im2.jfif"
         ]
       },
       {
         "title": "Produit YYY",
         "images": [
+          "assets/produit-YYY/im1.jpg",
+          "assets/produit-YYY/im2.jfif",
+          "assets/produit-YYY/im3.jfif",
+          "assets/produit-YYY/im1.jpg",
+          "assets/produit-YYY/im2.jfif",
+          "assets/produit-YYY/im3.jfif",
           "assets/produit-YYY/im1.jpg",
           "assets/produit-YYY/im2.jfif",
           "assets/produit-YYY/im3.jfif"
@@ -21,7 +42,27 @@
         "images": [
           "assets/produit-ZZZ/im4.jfif",
           "assets/produit-ZZZ/im1.jpg",
-          "assets/produit-ZZZ/im2.jfif"
+          "assets/produit-ZZZ/im2.jfif",
+          "assets/produit-ZZZ/im4.jfif",
+          "assets/produit-ZZZ/im1.jpg",
+          "assets/produit-ZZZ/im4.jfif",
+          "assets/produit-ZZZ/im1.jpg",
+          "assets/produit-ZZZ/im4.jfif",
+          "assets/produit-ZZZ/im1.jpg",
+          "assets/produit-ZZZ/im4.jfif",
+          "assets/produit-ZZZ/im1.jpg",
+          "assets/produit-ZZZ/im4.jfif",
+          "assets/produit-ZZZ/im1.jpg",
+          "assets/produit-ZZZ/im4.jfif",
+          "assets/produit-ZZZ/im1.jpg",
+          "assets/produit-ZZZ/im4.jfif",
+          "assets/produit-ZZZ/im1.jpg",
+          "assets/produit-ZZZ/im4.jfif",
+          "assets/produit-ZZZ/im1.jpg",
+          "assets/produit-ZZZ/im4.jfif",
+          "assets/produit-ZZZ/im1.jpg",
+          "assets/produit-ZZZ/im4.jfif",
+          "assets/produit-ZZZ/im1.jpg"
         ]
       }
     ]

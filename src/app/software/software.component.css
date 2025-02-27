@@ -1,0 +1,110 @@
+/* Style global pour la page des Hard Skills */
+.hard-skills-container {
+    background-color: #000000;  /* Fond noir */
+    color: #ffffff;  /* Texte blanc */
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 900px;
+    margin: 60px auto;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Titre principal de la page en rose fuchsia */
+.hard-skills-container h1 {
+    font-size: 3rem;
+    font-family: 'Helvetica', sans-serif;
+    color: #D500F9;  /* Rose fuchsia */
+    margin-bottom: 30px;
+}
+
+/* Sous-titre des compétences */
+.hard-skills-container h2 {
+    font-size: 2rem;
+    color: #D500F9;  /* Rose fuchsia */
+    margin-bottom: 40px;
+}
+
+/* Liste des compétences */
+.hard-skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/* Chaque item de la liste des compétences */
+.hard-skills-list li {
+    margin: 15px 0;
+    padding: 10px 20px;
+    border: 2px solid #D500F9;  /* Bordure rose fuchsia */
+    border-radius: 10px;
+    background-color: #1a1a1a;  /* Fond gris foncé */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/* Effet au survol des compétences */
+.hard-skills-list li:hover {
+    background-color: #D500F9;  /* Fond rose fuchsia */
+    color: #ffffff;  /* Texte blanc */
+    transform: translateY(-5px);  /* Légère élévation */
+}
+
+/* Effet de focus au survol des compétences */
+.hard-skills-list li:focus {
+    outline: none;  /* Retirer le focus visuel par défaut */
+    background-color: #9C00D2;  /* Fond rose plus foncé lors du focus */
+    color: #ffffff;
+}
+
+/* Style du bouton pour plus d'informations (si applicable) */
+.hard-skills-container button {
+    background-color: #D500F9;  /* Rose fuchsia */
+    color: #ffffff;
+    padding: 15px 40px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 30px;
+}
+
+/* Effet au survol du bouton */
+.hard-skills-container button:hover {
+    background-color: #9C00D2;  /* Rose plus foncé au survol */
+    transform: scale(1.05);
+}
+
+/* Effet lorsque le bouton est pressé */
+.hard-skills-container button:active {
+    transform: scale(1);
+}
+
+/* Responsivité : Ajustement pour petits écrans */
+@media (max-width: 768px) {
+    .hard-skills-container h1 {
+        font-size: 2.5rem;
+    }
+
+    .hard-skills-container h2 {
+        font-size: 1.8rem;
+    }
+
+    .hard-skills-list li {
+        font-size: 1.1rem;
+    }
+
+    .hard-skills-container button {
+        font-size: 1.2rem;
+        padding: 12px 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hard-skills-list li {
+        font-size: 1rem;  /* Ajuste la taille de police sur les petits écrans */
+    }
+}

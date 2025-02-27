@@ -1,0 +1,39 @@
+/* Style général du header */
+.header {
+  background-color: #000000;  /* Fond noir */
+  color: #ffffff;  /* Texte blanc */
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 900px;
+  margin: 10px auto;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation dans le header */
+.header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;  /* Centrer les éléments de la navigation */
+}
+
+/* Liens de navigation dans le header */
+.header nav ul li {
+  margin-right: 30px;
+}
+
+/* Style des liens dans le header */
+.header nav ul li a {
+  text-decoration: none;
+  color: #D500F9;  /* Rose fuchsia pour le texte */
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* Effet au survol des liens */
+.header nav ul li a:hover {
+  color: #9C00D2;  /* Rose plus foncé au survol */
+}
