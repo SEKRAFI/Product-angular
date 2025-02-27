@@ -1,0 +1,16 @@
+<div>
+  <h1>Produits</h1>
+  <ul>
+    <!-- Liste des produits -->
+    <li *ngFor="let produit of linksAndImages">
+      <a (click)="displayImages(produit.title)">{{ produit.title }}</a>
+    </li>
+  </ul>
+
+  <div *ngIf="selectedImages.length > 0">
+    <h2>Images de {{ selectedProduct }}</h2>  <!-- Affiche le titre du produit sélectionné -->
+    <div class="images-container">
+      <img *ngFor="let image of selectedImages" [src]="image" alt="Image du produit" />
+    </div>
+  </div>
+</div>
