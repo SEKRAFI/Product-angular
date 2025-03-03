@@ -97,3 +97,49 @@
     border: 4px solid #D500F9;  /* Bordure rose fuchsia pour les images sélectionnées */
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
+
+/* Style global pour la page des produits */
+.products-container {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 900px;
+    margin: 60px auto;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Nouveau style pour le fond en plein écran */
+.fullscreen-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);  /* Fond semi-transparent */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.fullscreen-overlay img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+/* Transition d'agrandissement d'image */
+.images-container img {
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.images-container img:hover {
+    transform: scale(1.05);
+}
+

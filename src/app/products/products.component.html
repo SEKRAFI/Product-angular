@@ -7,8 +7,14 @@
 
     <div *ngIf="selectedImages.length > 0">
         <div class="images-container selected-images-container">
-            <img *ngFor="let image of selectedImages" [src]="image" alt="Image du produit" />
+            <img *ngFor="let image of selectedImages" [src]="image" alt="Image du produit" 
+            (click)="openFullScreen(image)" />
         </div>
+    </div>
+
+    <!-- Affichage en plein écran -->
+    <div class="fullscreen-overlay" *ngIf="isFullScreenVisible">
+        <img [src]="fullScreenImage" alt="Image en plein écran" (click)="closeFullScreen()" />
     </div>
   </div>
   

@@ -10,8 +10,10 @@ import { Component } from '@angular/core';
   styleUrl: './products.component.css'
 })
 export class ProductsComponent {
+  isFullScreenVisible: boolean = false;
+  fullScreenImage: string = '';
 
-selectedImages: string[] = []; // Tableau pour les images affichées quand un lien est sélectionné
+  selectedImages: string[] = []; // Tableau pour les images affichées quand un lien est sélectionné
   selectedProduct: string = '';  // Variable pour stocker le titre du produit sélectionné
   linksAndImages: any[] = []; // Tableau qui contiendra les produits et leurs images
 
@@ -38,6 +40,17 @@ selectedImages: string[] = []; // Tableau pour les images affichées quand un li
       this.selectedProduct = selectedLink.title; // Met à jour le titre du produit sélectionné
       this.selectedImages = selectedLink.images; // Met à jour les images du produit sélectionné
     }
+  }
+
+  // Méthode pour afficher l'image en plein écran
+  openFullScreen(image: string) {
+    this.fullScreenImage = image;
+    this.isFullScreenVisible = true;
+  }
+
+  // Méthode pour fermer l'image en plein écran
+  closeFullScreen() {
+    this.isFullScreenVisible = false;
   }
 }
 
