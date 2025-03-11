@@ -300,3 +300,17 @@
     }
   }
   
+  .home-container {
+    display: flex;
+    justify-content: center;  /* Centrer l'image horizontalement */
+    align-items: center;      /* Centrer l'image verticalement */
+    height: 100vh;            /* Prendre toute la hauteur de la fenêtre */
+  }
+  
+  .home-image {
+    max-width: 100%;          /* L'image prendra toute la largeur disponible */
+    height: auto;             /* Maintenir les proportions de l'image */
+    border-radius: 10px;      /* Optionnel : ajouter des coins arrondis */
+  }
+  
+  

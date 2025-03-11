@@ -1,0 +1,145 @@
+/* Style global pour la page des produits */
+.products-container {
+    background-color: #000000;  /* Fond noir */
+    color: #ffffff;  /* Texte blanc */
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 900px;
+    margin: 60px auto;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Titre principal de la page en rose fuchsia */
+.products-container h1 {
+    font-size: 3rem;
+    font-family: 'Helvetica', sans-serif;
+    color: #D500F9;  /* Rose fuchsia */
+    margin-bottom: 20px;
+}
+
+/* Style des titres des images sélectionnées */
+.products-container h2 {
+    font-size: 2rem;
+    color: #D500F9;  /* Rose fuchsia */
+    margin-top: 30px;
+}
+
+/* Liste des produits */
+.products-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+    display: flex;  /* Permet d'afficher les produits sur la même ligne */
+    justify-content: center;  /* Centrer les éléments horizontalement */
+    flex-wrap: wrap;  /* Permet de revenir à la ligne si nécessaire */
+}
+
+/* Style des éléments de la liste des produits */
+.products-container ul li {
+    margin: 15px;
+    display: inline-block;  /* S'assurer que chaque élément est sur la même ligne */
+    cursor: pointer;
+}
+
+/* Style des liens des produits */
+.products-container ul li a {
+    text-decoration: none;
+    color: #D500F9;  /* Rose fuchsia */
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    padding: 10px 15px;  /* Ajoute du padding pour rendre le lien cliquable */
+    border-radius: 5px;
+}
+
+/* Effet au survol des liens des produits */
+.products-container ul li a:hover {
+    color: #9C00D2;  /* Rose plus foncé au survol */
+    background-color: #D500F9;  /* Fond rose fuchsia au survol */
+    color: #ffffff;  /* Texte blanc lors du survol */
+}
+
+/* Produit sélectionné */
+.selected-product {
+    background-color: #D500F9;  /* Fond rose fuchsia */
+    color: #ffffff;  /* Texte blanc */
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+/* Conteneur des images */
+.images-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+/* Style des images du produit */
+.images-container img {
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Effet au survol des images */
+.images-container img:hover {
+    transform: scale(1.05);
+}
+
+/* Style spécifique pour les images liées au produit sélectionné */
+.selected-images-container img {
+    border: 4px solid #D500F9;  /* Bordure rose fuchsia pour les images sélectionnées */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Style global pour la page des produits */
+.products-container {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 900px;
+    margin: 60px auto;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Nouveau style pour le fond en plein écran */
+.fullscreen-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);  /* Fond semi-transparent */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.fullscreen-overlay img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+/* Transition d'agrandissement d'image */
+.images-container img {
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.images-container img:hover {
+    transform: scale(1.05);
+}
+

@@ -4,6 +4,7 @@ import { ImageDisplayComponent } from './image-display/image-display.component';
 import { ProductsComponent } from './products/products.component';
 import { SkillsComponent } from './skills/skills.component';
 import { SoftwareComponent } from './software/software.component';
+import { ModeComponent } from './mode/mode.component';
 
 
   export const routes: Routes = [
@@ -11,5 +12,6 @@ import { SoftwareComponent } from './software/software.component';
     { path: 'products', component: ProductsComponent },
     { path: 'hardskills', component: SkillsComponent },
     { path: 'software', component: SoftwareComponent },
-    { path: 'produit', component: ImageDisplayComponent },  // Page des images
+    { path: 'produit', component: ImageDisplayComponent },
+    { path: 'mode', component: ModeComponent },
   ];

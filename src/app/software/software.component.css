@@ -1,66 +1,258 @@
-/* Style global pour la page des Hard Skills */
-.hard-skills-container {
+/*
+
+.home-container {
+    background-color: #000000;  
+    color: #ffffff;  
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 900px;
+    margin: 60px auto;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .home-container h1 {
+    font-size: 3rem;
+    font-family: 'Helvetica', sans-serif;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #e91e63;  
+  }
+
+  .home-container h2 {
+    font-size: 2rem;
+    color: #e91e63;  
+    margin-bottom: 30px;
+  }
+  
+
+  .home-container p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Georgia', serif;
+    color: #d0d0d0;  
+  }
+  
+
+  .sectors-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px; 
+    justify-items: center;
+    margin-bottom: 40px;
+  }
+
+  .sector-item {
+    background-color: #ffffff;  
+    color: #000000;  
+    padding: 25px;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 100%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
+  }
+  
+  .sector-item:hover {
+    background-color: #e91e63;  
+    color: white;
+    transform: translateY(-5px); 
+  }
+
+  .home-container button {
+    background-color: #e91e63; 
+    color: #ffffff;
+    padding: 15px 40px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 30px; 
+  }
+  
+  .home-container button:hover {
+    background-color: #c2185b;  
+    color: #ffffff;
+    transform: scale(1.05);  
+  }
+  
+  .home-container button:active {
+    transform: scale(1);
+  }
+  
+
+  @media (max-width: 768px) {
+    .home-container {
+      padding: 20px;
+    }
+  
+    .sectors-list {
+      grid-template-columns: 1fr 1fr; 
+    }
+  
+    .home-container h1 {
+      font-size: 2.5rem;
+    }
+  
+    .home-container h2 {
+      font-size: 1.8rem;
+    }
+  
+    .home-container button {
+      font-size: 1.2rem;
+      padding: 12px 25px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .sectors-list {
+      grid-template-columns: 1fr; 
+    }
+  }
+  */
+
+/* Container principal avec fond noir et texte blanc */
+.home-container {
     background-color: #000000;  /* Fond noir */
     color: #ffffff;  /* Texte blanc */
     padding: 40px;
     border-radius: 20px;
+    text-align: center;
     max-width: 900px;
     margin: 60px auto;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-/* Titre principal de la page en rose fuchsia */
-.hard-skills-container h1 {
+  }
+  
+  /* Titre principal de la page en rose fuchsia */
+  .home-container h1 {
     font-size: 3rem;
     font-family: 'Helvetica', sans-serif;
+    margin-bottom: 20px;
+    font-weight: bold;
     color: #D500F9;  /* Rose fuchsia */
-    margin-bottom: 30px;
-}
-
-/* Sous-titre des compétences */
-.hard-skills-container h2 {
+  }
+  
+  /* Sous-titre avec couleur rose fuchsia */
+  .home-container h2 {
     font-size: 2rem;
     color: #D500F9;  /* Rose fuchsia */
-    margin-bottom: 40px;
-}
-
-/* Liste des compétences */
-.hard-skills-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    margin-bottom: 30px;
+  }
+  
+  /* Paragraphe de présentation avec couleur gris clair */
+  .home-container p {
     font-size: 1.2rem;
-}
-
-/* Chaque item de la liste des compétences */
-.hard-skills-list li {
-    margin: 15px 0;
-    padding: 10px 20px;
-    border: 2px solid #D500F9;  /* Bordure rose fuchsia */
-    border-radius: 10px;
-    background-color: #1a1a1a;  /* Fond gris foncé */
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    font-weight: bold;
-    text-transform: capitalize;
-}
-
-/* Effet au survol des compétences */
-.hard-skills-list li:hover {
-    background-color: #D500F9;  /* Fond rose fuchsia */
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Georgia', serif;
+    color: #d0d0d0;  /* Gris clair pour le texte */
+  }
+  
+  /* Disposition en grille pour les secteurs */
+  .sectors-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Trois colonnes sur grand écran */
+    gap: 30px;
+    justify-items: center;
+    margin-bottom: 40px;
+  }
+  
+  /* Item de secteur */
+  .sector-item {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Carte de secteur avec fond noir et bordure fuchsia */
+  .sector-card {
+    background-color: #000000;  /* Fond noir */
     color: #ffffff;  /* Texte blanc */
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    width: 180px;
+    height: 70px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: 2px solid #D500F9;  /* Bordure rose fuchsia */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Titre du secteur */
+  .sector-card h3 {
+    font-size: 1rem;  /* Taille de police réduite */
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #D500F9;  /* Rose fuchsia pour le titre */
+  }
+  
+  /* Description sous le titre */
+  .sector-card p {
+    font-size: 0.8rem;  /* Taille de police réduite */
+    color: #ffffff;  /* Texte blanc */
+    margin-top: 5px;
+  }
+  
+  /* Effet au survol de la carte */
+  .sector-card:hover {
+    background-color: #D500F9;  /* Fond rose fuchsia */
+    color: #ffffff;  /* Texte blanc même au survol */
     transform: translateY(-5px);  /* Légère élévation */
-}
-
-/* Effet de focus au survol des compétences */
-.hard-skills-list li:focus {
-    outline: none;  /* Retirer le focus visuel par défaut */
-    background-color: #9C00D2;  /* Fond rose plus foncé lors du focus */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);  /* Ombre plus prononcée */
+  }
+  
+  /* Titre du secteur lors du survol */
+  .sector-card:hover h3 {
+    color: #ffffff;  /* Le titre reste blanc lors du survol */
+  }
+  
+  /* Description sous le titre lors du survol */
+  .sector-card:hover p {
+    color: #ffffff;  /* La description reste blanche lors du survol */
+  }
+  
+  /* Bouton des secteurs */
+  .sector-button {
+    background-color: #D500F9;  /* Rose fuchsia */
     color: #ffffff;
-}
-
-/* Style du bouton pour plus d'informations (si applicable) */
-.hard-skills-container button {
+    padding: 8px 20px;  /* Réduit la taille du bouton */
+    font-size: 1rem;  /* Taille de police réduite */
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 15px;  /* Espacement plus petit entre le texte et le bouton */
+  }
+  
+  .sector-button:hover {
+    background-color: #9C00D2;  /* Rose plus foncé lors du survol */
+    transform: scale(1.05);
+  }
+  
+  .sector-button:active {
+    transform: scale(1);
+  }
+  
+  /* Bouton pour naviguer vers les produits */
+  .home-container button {
     background-color: #D500F9;  /* Rose fuchsia */
     color: #ffffff;
     padding: 15px 40px;
@@ -70,41 +262,55 @@
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
     margin-top: 30px;
-}
-
-/* Effet au survol du bouton */
-.hard-skills-container button:hover {
-    background-color: #9C00D2;  /* Rose plus foncé au survol */
+  }
+  
+  .home-container button:hover {
+    background-color: #9C00D2;  /* Rose foncé lors du survol */
+    color: #ffffff;
     transform: scale(1.05);
-}
-
-/* Effet lorsque le bouton est pressé */
-.hard-skills-container button:active {
+  }
+  
+  .home-container button:active {
     transform: scale(1);
-}
-
-/* Responsivité : Ajustement pour petits écrans */
-@media (max-width: 768px) {
-    .hard-skills-container h1 {
-        font-size: 2.5rem;
+  }
+  
+  /* Responsivité : Adaptation des secteurs sur petits écrans */
+  @media (max-width: 768px) {
+    .sectors-list {
+      grid-template-columns: 1fr 1fr; /* Deux colonnes sur tablette */
     }
-
-    .hard-skills-container h2 {
-        font-size: 1.8rem;
+  
+    .home-container h1 {
+      font-size: 2.5rem;
     }
-
-    .hard-skills-list li {
-        font-size: 1.1rem;
+  
+    .home-container h2 {
+      font-size: 1.8rem;
     }
-
-    .hard-skills-container button {
-        font-size: 1.2rem;
-        padding: 12px 25px;
+  
+    .home-container button {
+      font-size: 1.2rem;
+      padding: 12px 25px;
     }
-}
-
-@media (max-width: 480px) {
-    .hard-skills-list li {
-        font-size: 1rem;  /* Ajuste la taille de police sur les petits écrans */
+  }
+  
+  @media (max-width: 480px) {
+    .sectors-list {
+      grid-template-columns: 1fr; /* Une seule colonne sur très petits écrans */
     }
-}
+  }
+  
+  .home-container {
+    display: flex;
+    justify-content: center;  /* Centrer l'image horizontalement */
+    align-items: center;      /* Centrer l'image verticalement */
+    height: 100vh;            /* Prendre toute la hauteur de la fenêtre */
+  }
+  
+  .home-image {
+    max-width: 100%;          /* L'image prendra toute la largeur disponible */
+    height: auto;             /* Maintenir les proportions de l'image */
+    border-radius: 10px;      /* Optionnel : ajouter des coins arrondis */
+  }
+  
+  

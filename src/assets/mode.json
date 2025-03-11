@@ -1,0 +1,80 @@
+{
+    "modes": [
+      {
+        "title": "COP COPINE",
+        "images": [
+          "assets/COP-COPINE/copcopine1.jpg",
+          "assets/COP-COPINE/copcopine2.jpg",
+          "assets/COP-COPINE/copcopine3.jpg",
+          "assets/COP-COPINE/copcopine4.jpg",
+          "assets/COP-COPINE/copcopine4bis.jpg",
+          "assets/COP-COPINE/copcopine5.jpg",
+          "assets/COP-COPINE/copcopine6.jpg",
+          "assets/COP-COPINE/copcopine7.jpg",
+          "assets/COP-COPINE/copcopine8.jpg",
+          "assets/COP-COPINE/copcopine9.jpg",
+          "assets/COP-COPINE/copcopine10.jpg",
+          "assets/COP-COPINE/copcopine11.jpg",
+          "assets/COP-COPINE/copcopine12.jpg",
+          "assets/COP-COPINE/copcopine13.jpg",
+          "assets/COP-COPINE/copcopine14.jpg",
+          "assets/COP-COPINE/copcopine15.jpg",
+          "assets/COP-COPINE/copcopine16.jpg",
+          "assets/COP-COPINE/copcopine17.jpg",
+          "assets/COP-COPINE/copcopine18.jpg",
+          "assets/COP-COPINE/copcopine19.jpg",
+          "assets/COP-COPINE/copcopine20.jpg",
+          "assets/COP-COPINE/copcopine21.jpg",
+          "assets/COP-COPINE/copcopine22.jpg",
+          "assets/COP-COPINE/copcopine23.jpg",
+          "assets/COP-COPINE/copcopine24.jpg",
+          "assets/COP-COPINE/copcopine25.jpg",
+          "assets/COP-COPINE/copcopine26.jpg",
+          "assets/COP-COPINE/copcopine27.jpg",
+          "assets/COP-COPINE/copcopine28.jpg"
+        ]
+      },
+      {
+        "title": "RG512",
+        "images": [
+          "assets/RG512/RG5121.jpg",
+          "assets/RG512/RG5122.jpg",
+          "assets/RG512/RG5123.jpg",
+          "assets/RG512/RG5124.jpg",
+          "assets/RG512/RG5125.jpg",
+          "assets/RG512/RG5126.jpg",
+          "assets/RG512/RG5128.jpg",
+          "assets/RG512/RG5129.jpg",
+          "assets/RG512/RG51210.jpg",
+          "assets/RG512/RG51211.jpg",
+          "assets/RG512/RG51212.jpg",
+          "assets/RG512/RG51213.jpg",
+          "assets/RG512/RG51214.jpg",
+          "assets/RG512/RG51215.jpg",
+          "assets/RG512/RG51216.jpg",
+          "assets/RG512/RG51217.jpg",
+          "assets/RG512/RG51218.jpg",
+          "assets/RG512/RG51219.jpg",
+          "assets/RG512/RG51220.jpg",
+          "assets/RG512/REG51221.jpg",
+          "assets/RG512/REG51222.jpg",
+          "assets/RG512/BOARDRG5125.jpg",
+          "assets/RG512/BOARDRG51223.jpg",
+          "assets/RG512/BOARDRG51224.jpg",
+          "assets/RG512/BOARDRG51226.jpg"
+        ]
+      },
+      {
+        "title": "COUTURE CREATION",
+        "images": [
+          "assets/COUTURE-CREATION/P3100151.jpg",
+          "assets/COUTURE-CREATION/P3100152.jpg",
+          "assets/COUTURE-CREATION/DEFILEOISEAU5.jpg",
+          "assets/COUTURE-CREATION/DEFILEOISEAU7.jpg",
+          "assets/COUTURE-CREATION/DEFILEOISEAU8.jpg",
+          "assets/COUTURE-CREATION/DEFILEOISEAU9.jpg"
+        ]
+      }
+    ]
+  }
+  
