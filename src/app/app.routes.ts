@@ -5,10 +5,12 @@ import { ProductsComponent } from './products/products.component';
 import { SkillsComponent } from './skills/skills.component';
 import { SoftwareComponent } from './software/software.component';
 import { ModeComponent } from './mode/mode.component';
+import { SoftskillsComponent } from './softskills/softskills.component';
 
 
   export const routes: Routes = [
     { path: '', component: HomeComponent },  // Page d'accueil
+    { path: 'softskills', component:SoftskillsComponent},
     { path: 'products', component: ProductsComponent },
     { path: 'hardskills', component: SkillsComponent },
     { path: 'software', component: SoftwareComponent },

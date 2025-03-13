@@ -61,18 +61,50 @@
           "assets/RG512/BOARDRG5125.jpg",
           "assets/RG512/BOARDRG51223.jpg",
           "assets/RG512/BOARDRG51224.jpg",
-          "assets/RG512/BOARDRG51226.jpg"
+          "assets/RG512/BOARDRG51226.jpg",
+          "assets/RG512/DSC05361.jpg",
+          "assets/RG512/DSC05362.jpg",
+          "assets/RG512/DSC05364.jpg",
+          "assets/RG512/DSC05367.jpg",
+          "assets/RG512/DSC05368.jpg",
+          "assets/RG512/DSC05369.jpg",
+          "assets/RG512/DSC05371.jpg",
+          "assets/RG512/DSC05372.jpg",
+          "assets/RG512/DSC05373.jpg",
+          "assets/RG512/DSC05376.jpg",
+          "assets/RG512/DSC05379.jpg",
+          "assets/RG512/DSC05602.jpg",
+          "assets/RG512/DSC05609.jpg",
+          "assets/RG512/P3100064.jpg"
         ]
       },
       {
         "title": "COUTURE CREATION",
         "images": [
+          "assets/COUTURE-CREATION/P3100131.jpg",
+          "assets/COUTURE-CREATION/P3100133.jpg",
+          "assets/COUTURE-CREATION/P3100135.jpg",
+          "assets/COUTURE-CREATION/P3100136.jpg",
+          "assets/COUTURE-CREATION/P3100148.jpg",
+          "assets/COUTURE-CREATION/P3100149.jpg",
           "assets/COUTURE-CREATION/P3100151.jpg",
           "assets/COUTURE-CREATION/P3100152.jpg",
+          "assets/COUTURE-CREATION/DEFILEOISEAU4.jpg",
           "assets/COUTURE-CREATION/DEFILEOISEAU5.jpg",
+          "assets/COUTURE-CREATION/DEFILEOISEAU6.jpg",
           "assets/COUTURE-CREATION/DEFILEOISEAU7.jpg",
           "assets/COUTURE-CREATION/DEFILEOISEAU8.jpg",
-          "assets/COUTURE-CREATION/DEFILEOISEAU9.jpg"
+          "assets/COUTURE-CREATION/DEFILEOISEAU9.jpg", 
+          "assets/COUTURE-CREATION/CREADEBUT11.jpg",
+          "assets/COUTURE-CREATION/CREADEBUT12.jpg",
+          "assets/COUTURE-CREATION/CREADEBUT13.jpg",
+          "assets/COUTURE-CREATION/CREADEBUT14.jpg"
+        ]
+      },
+      {
+        "title": "LA HALLE",
+        "images": [
+          "assets/HALL/HALL.png"
         ]
       }
     ]
