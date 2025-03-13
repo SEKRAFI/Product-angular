@@ -6,6 +6,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { SoftwareComponent } from './software/software.component';
 import { ModeComponent } from './mode/mode.component';
 import { SoftskillsComponent } from './softskills/softskills.component';
+import { IaComponent } from './ia/ia.component';
 
 
   export const routes: Routes = [
@@ -16,4 +17,5 @@ import { SoftskillsComponent } from './softskills/softskills.component';
     { path: 'software', component: SoftwareComponent },
     { path: 'produit', component: ImageDisplayComponent },
     { path: 'mode', component: ModeComponent },
+    { path: 'ia', component: IaComponent },
   ];
