@@ -29,7 +29,7 @@ export class ModeComponent {
     this.http.get<any>('assets/mode.json').subscribe(data => {
       this.linksAndImages = data.modes;
     }, error => {
-      console.error('Erreur lors du chargement des modes:', error);
+      console.error('Erreur lors du chargement des modes :', error);
     });
   }
 
